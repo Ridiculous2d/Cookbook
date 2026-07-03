@@ -35,7 +35,13 @@ Tested Recipes • Meal Prep • Entertaining
 
 <div class="recipe-card">
 
-<img src="{{ recipe.image | relative_url }}">
+{% if recipe.image %}
+    <img src="{{ recipe.image | relative_url }}" alt="{{ recipe.title }}">
+{% else %}
+    <div class="recipe-placeholder">
+        📷 Photo Coming Soon
+    </div>
+{% endif %}
 
 <div class="recipe-card-body">
 
