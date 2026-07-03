@@ -7,9 +7,8 @@ category: Meal Prep Bowl
 
 image: /images/recipes/lemon-herb-chicken-power-bowl/hero.jpg
 
-recipe_card: /recipe-cards/meal-prep-bowls/lemon-herb-chicken-power-bowl.pdf
+recipe_card: /recipe-cards/lemon-herb-chicken-power-bowl.png
 
-quick_reference: /recipe-summaries/meal-prep-bowls/lemon-herb-chicken-power-bowl.pdf
 
 version: 1.0
 
