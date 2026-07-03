@@ -1,16 +1,9 @@
 <nav class="navbar">
-    <div class="nav-container">
+  <div class="nav-container">
+    <a class="logo" href="{{ '/' | relative_url }}">Amy's Cookbook</a>
 
-        <a href="{{ '/' | relative_url }}" class="logo">
-            Amy's Cookbook
-        </a>
-
-        <div class="nav-links">
-            <a href="{{ '/' | relative_url }}">Home</a>
-            <a href="{{ '/recipes/' | relative_url }}">Recipes</a>
-            <a href="{{ '/standards/' | relative_url }}">Standards</a>
-            <a href="{{ '/about/' | relative_url }}">About</a>
-        </div>
-
+    <div class="nav-links">
+      <a href="{{ '/' | relative_url }}">Home</a>
     </div>
+  </div>
 </nav>
