@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #faf7f2;
+  color: #2f2a25;
+}
+
+.site-nav {
+  background: #6f4e37;
+  padding: 12px 18px;
+}
+
+.site-nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 18px;
+  font-weight: bold;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+h1, h2, h3 {
+  color: #4a3428;
+}
+
+a {
+  color: #7a4a2a;
+}
