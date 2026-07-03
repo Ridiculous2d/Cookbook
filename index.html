@@ -1,53 +1,94 @@
 ---
-layout: default
 title: Home
+layout: default
 ---
 
 <section class="hero">
-  <h1>Amy's Cookbook</h1>
-  <p class="tagline">Tested Recipes • Meal Prep • Entertaining</p>
-  <p class="intro">
-    A personal collection of recipes I've tested, refined, and organized for the way I cook.
-  </p>
+
+<h1>Amy's Cookbook</h1>
+
+<p>
+
+Tested Recipes • Meal Prep • Entertaining
+
+</p>
+
 </section>
 
 <section>
-  <h2>Browse the Cookbook</h2>
 
-  <div class="card-grid">
-    <a class="card" href="{{ '/recipes/' | relative_url }}">
-      <h3>Recipes</h3>
-      <p>Browse the full recipe collection.</p>
-    </a>
+<h2>Recipe Catalog</h2>
 
-    <a class="card" href="{{ '/standards/' | relative_url }}">
-      <h3>Standards</h3>
-      <p>View recipe and meal prep standards.</p>
-    </a>
+<div id="search-placeholder">
 
-    <a class="card" href="{{ '/recipe-cards/' | relative_url }}">
-      <h3>Recipe Cards</h3>
-      <p>Printable recipe cards.</p>
-    </a>
+🔍 Search and Filters
+<br>
+<small>(Coming Soon)</small>
 
-    <a class="card" href="{{ '/recipe-summaries/' | relative_url }}">
-      <h3>Recipe Summaries</h3>
-      <p>Quick-reference cooking sheets.</p>
-    </a>
-  </div>
-</section>
+</div>
 
-<section>
-  <h2>Recipe Categories</h2>
+<div class="recipe-grid">
 
-  <div class="category-list">
-    <a href="{{ '/recipes/' | relative_url }}">Meal Prep Bowls</a>
-    <a href="{{ '/recipes/' | relative_url }}">Slow Cooker</a>
-    <a href="{{ '/recipes/' | relative_url }}">Sheet Pan Meals</a>
-    <a href="{{ '/recipes/' | relative_url }}">Breakfast</a>
-    <a href="{{ '/recipes/' | relative_url }}">Snacks</a>
-    <a href="{{ '/recipes/' | relative_url }}">Desserts</a>
-    <a href="{{ '/recipes/' | relative_url }}">Holiday</a>
-    <a href="{{ '/recipes/' | relative_url }}">Drinks</a>
-  </div>
+{% assign sorted = site.pages | where_exp: "item", "item.layout == 'recipe'" | sort: "title" %}
+
+{% for recipe in sorted %}
+
+<div class="recipe-card">
+
+<img src="{{ recipe.image | relative_url }}">
+
+<div class="recipe-card-body">
+
+<h2>{{ recipe.title }}</h2>
+
+<p class="recipe-category">
+
+{{ recipe.category }}
+
+</p>
+
+<a class="button"
+
+href="{{ recipe.url | relative_url }}">
+
+View Recipe
+
+</a>
+
+{% if recipe.recipe_card %}
+
+<a class="button"
+
+href="{{ recipe.recipe_card | relative_url }}"
+
+download>
+
+Download Recipe Card
+
+</a>
+
+{% endif %}
+
+{% if recipe.quick_reference %}
+
+<a class="button"
+
+href="{{ recipe.quick_reference | relative_url }}"
+
+download>
+
+Download Quick Reference
+
+</a>
+
+{% endif %}
+
+</div>
+
+</div>
+
+{% endfor %}
+
+</div>
+
 </section>
