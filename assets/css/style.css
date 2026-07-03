@@ -1,150 +1,217 @@
-:root {
-  --cream: #faf7f2;
-  --paper: #fffdf8;
-  --walnut: #6f4e37;
-  --dark-walnut: #3f2b21;
-  --sage: #6f8f72;
-  --terracotta: #b85c38;
-  --border: #e3d8ca;
-  --text: #2f2a25;
+:root{
+
+--background:#F7F3EE;
+--paper:#FFFFFF;
+
+--primary:#6F4E37;
+--secondary:#8AA17A;
+
+--text:#2B2B2B;
+
+--border:#DDD;
+
 }
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background: var(--cream);
-  color: var(--text);
+*{
+
+box-sizing:border-box;
+
 }
 
-.site-nav {
-  background: var(--walnut);
-  padding: 14px 22px;
-  box-shadow: 0 2px 8px rgba(0,0,0,.12);
+body{
+
+margin:0;
+
+font-family:Segoe UI,Arial,sans-serif;
+
+background:var(--background);
+
+color:var(--text);
+
+line-height:1.6;
+
 }
 
-.site-nav a {
-  color: white;
-  text-decoration: none;
-  margin-right: 22px;
-  font-weight: 700;
+.navbar{
+
+background:var(--primary);
+
 }
 
-.site-nav a:hover {
-  text-decoration: underline;
+.nav-container{
+
+max-width:1200px;
+
+margin:auto;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:18px;
+
 }
 
-main {
-  max-width: 980px;
-  margin: 36px auto;
-  padding: 0 22px;
+.logo{
+
+color:white;
+
+font-size:28px;
+
+font-weight:bold;
+
+text-decoration:none;
+
 }
 
-.hero {
-  background: var(--paper);
-  border: 1px solid var(--border);
-  border-radius: 18px;
-  padding: 42px 34px;
-  text-align: center;
-  box-shadow: 0 6px 18px rgba(63, 43, 33, .08);
+.nav-links a{
+
+color:white;
+
+text-decoration:none;
+
+margin-left:25px;
+
+font-weight:600;
+
 }
 
-.hero h1 {
-  font-size: 3rem;
-  margin: 0 0 8px;
+main{
+
+max-width:1200px;
+
+margin:auto;
+
+padding:40px;
+
 }
 
-.tagline {
-  font-weight: 700;
-  color: var(--terracotta);
-  margin-bottom: 16px;
+.hero{
+
+text-align:center;
+
+padding:40px 0;
+
 }
 
-.intro {
-  max-width: 650px;
-  margin: 0 auto;
+.hero h1{
+
+font-size:52px;
+
+margin-bottom:10px;
+
 }
 
-section {
-  margin-top: 36px;
+.hero p{
+
+font-size:20px;
+
 }
 
-h1, h2, h3 {
-  color: var(--dark-walnut);
+.recipe-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+gap:30px;
+
+margin-top:40px;
+
 }
 
-h2 {
-  border-bottom: 2px solid var(--border);
-  padding-bottom: 8px;
+.recipe-card{
+
+background:white;
+
+border-radius:12px;
+
+overflow:hidden;
+
+box-shadow:0 4px 12px rgba(0,0,0,.10);
+
 }
 
-.card-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 18px;
+.recipe-card img{
+
+width:100%;
+
+aspect-ratio:4/3;
+
+object-fit:cover;
+
 }
 
-.card {
-  display: block;
-  background: var(--paper);
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  padding: 22px;
-  text-decoration: none;
-  color: var(--text);
-  box-shadow: 0 4px 14px rgba(63, 43, 33, .07);
+.recipe-card-body{
+
+padding:20px;
+
 }
 
-.card:hover {
-  transform: translateY(-2px);
-  border-color: var(--sage);
+.recipe-card h2{
+
+margin-top:0;
+
 }
 
-.card h3 {
-  margin-top: 0;
-  color: var(--walnut);
+.recipe-category{
+
+color:#666;
+
+font-style:italic;
+
 }
 
-.category-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
+.recipe-buttons{
+
+display:flex;
+
+flex-direction:column;
+
+gap:10px;
+
+margin-top:20px;
+
 }
 
-.category-list a {
-  background: var(--paper);
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 10px 16px;
-  text-decoration: none;
-  color: var(--dark-walnut);
-  font-weight: 700;
+.button{
+
+display:block;
+
+text-align:center;
+
+background:var(--primary);
+
+color:white;
+
+padding:12px;
+
+border-radius:8px;
+
+text-decoration:none;
+
+font-weight:600;
+
 }
 
-.category-list a:hover {
-  background: #efe7dc;
+.button:hover{
+
+background:#5b3f2d;
+
 }
 
-a {
-  color: var(--terracotta);
-}
+.footer{
 
-hr {
-  border: none;
-  border-top: 1px solid var(--border);
-}
+margin-top:80px;
 
-@media (max-width: 700px) {
-  .site-nav a {
-    display: inline-block;
-    margin-bottom: 8px;
-  }
+padding:30px;
 
-  .hero h1 {
-    font-size: 2.2rem;
-  }
+text-align:center;
 
-  .card-grid {
-    grid-template-columns: 1fr;
-  }
+border-top:1px solid var(--border);
+
+color:#777;
+
 }
