@@ -7,7 +7,7 @@ title: Home
   <h1>Amy's Cookbook</h1>
   <p class="tagline">Tested Recipes • Meal Prep • Entertaining</p>
   <p class="intro">
-    This cookbook is a collection of recipes that I've put together for meal planning and prepping.
+    A personal collection of recipes I've tested, refined, and organized for the way I cook.
   </p>
 </section>
 
