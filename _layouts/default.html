@@ -1,20 +1,30 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>{{ page.title | default: site.title }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<head>
+
+    <meta charset="utf-8">
+
+    <title>{{ page.title }} | {{ site.title }}</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
 </head>
 
 <body>
 
-  {% include navigation.html %}
+{% include navigation.html %}
 
-  <main>
-    {{ content }}
-  </main>
+<main>
+
+{{ content }}
+
+</main>
+
+{% include footer.html %}
 
 </body>
+
 </html>
