@@ -111,15 +111,11 @@ font-size:20px;
 }
 
 .recipe-grid{
-
-display:grid;
-
-grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-
-gap:30px;
-
-margin-top:40px;
-
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+    margin-top:40px;
 }
 
 .recipe-card{
