@@ -1,7 +1,7 @@
 ## Recipe Goals
 
 ---
-
+These are additional standards to the general standards
 ---
 Every recipe should be:
 
