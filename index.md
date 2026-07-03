@@ -6,7 +6,11 @@ This cookbook is a collection of recipes that I've tested, refined, and organize
 
 ---
 
-## Meal Prep Bowls
+## 🍽️ Recipes
+
+➡️ **[Browse All Recipes](recipes/)**
+
+### Current Recipes
 
 - 🌮 Southwest Chicken Power Bowl *(Coming Soon)*
 - 🍋 Lemon Herb Chicken Power Bowl *(Coming Soon)*
