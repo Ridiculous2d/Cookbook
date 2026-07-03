@@ -36,6 +36,7 @@ Smoky • Savory • Slightly Spicy • Fresh
 ---
 
 # Recipe Information
+
 | | |
 |---|---|
 | Servings | 3 |
