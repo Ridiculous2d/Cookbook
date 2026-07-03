@@ -5,7 +5,7 @@ title: Lemon Herb Chicken Power Bowl
 
 category: Meal Prep Bowl
 
-image: /images/recipes/lemon-herb-chicken-power-bowl/hero.jpg
+image: /recipe-cards/lemon-herb-chicken-power-bowl.png
 
 recipe_card: /recipe-cards/lemon-herb-chicken-power-bowl.png
 
