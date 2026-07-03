@@ -1,8 +1,14 @@
 # Recipes
 
-## Meal Prep Bowls
+Welcome to the recipe collection.
 
-- Southwest Chicken Power Bowl
-- Lemon Herb Chicken Power Bowl
-
-More recipes coming soon...
+Each recipe includes:
+- Description
+- Prep order
+- Equipment
+- Ingredients
+- Meal Prep Detailed instructions
+- Meal Day Deatiled instructions
+- Storage information
+- Nutrition
+- Recipe history
