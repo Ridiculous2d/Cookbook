@@ -1,15 +1,9 @@
 title: Amy's Cookbook
-description: A personal collection of recipes, meal prep ideas, and cooking references.
-theme: minima
+description: A personal cookbook of tested recipes.
+baseurl: "/Cookbook"
+url: "https://ridiculous2d.github.io"
 
 markdown: kramdown
-
-plugins:
-  - jekyll-feed
-
-header_pages:
-  - recipes/README.md
-  - standards/README.md
 
 defaults:
   -
@@ -18,7 +12,6 @@ defaults:
     values:
       layout: default
 
-collections:
-  recipes:
-    output: true
-    permalink: /recipes/:name/
+exclude:
+  - dev
+  - README.md
