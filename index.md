@@ -1,5 +1,7 @@
 # Amy's Cookbook
 
+[🏠 Home](./) | [📚 Standards](standards/) | [🍽️ Recipes](recipes/) | [🖨️ Recipe Cards](recipe-cards/) | [📋 Recipe Summaries](recipe-summaries/)
+
 Welcome to my personal cookbook.
 
 This cookbook is a collection of recipes that I've put together for meal planning and prepping.
