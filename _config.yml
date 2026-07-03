@@ -17,3 +17,8 @@ defaults:
       path: ""
     values:
       layout: default
+
+collections:
+  recipes:
+    output: true
+    permalink: /recipes/:name/
