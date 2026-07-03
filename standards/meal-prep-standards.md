@@ -1,5 +1,8 @@
 ## Recipe Goals
 
+---
+
+---
 Every recipe should be:
 
 - High protein
