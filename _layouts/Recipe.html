@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<article class="recipe-page">
+
+  <header class="recipe-header">
+    {% if page.image %}
+      <img class="recipe-hero" src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+    {% endif %}
+
+    <h1>{{ page.title }}</h1>
+
+    {% if page.category %}
+      <p class="recipe-category">{{ page.category }}</p>
+    {% endif %}
+
+    <div class="recipe-actions">
+      <a class="button" href="{{ page.url | relative_url }}">View Recipe</a>
+
+      {% if page.recipe_card %}
+        <a class="button" href="{{ page.recipe_card | relative_url }}">Download Recipe Card</a>
+      {% endif %}
+
+      {% if page.quick_reference %}
+        <a class="button" href="{{ page.quick_reference | relative_url }}">Download Quick Reference</a>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="recipe-content">
+    {{ content }}
+  </div>
+
+</article>
