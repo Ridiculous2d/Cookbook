@@ -4,12 +4,12 @@ layout: default
 
 <div class="recipe">
 
-{% if page.image %}
+{% if page.recipe_card %}
 
 <img
 class="recipe-photo"
-src="{{ page.image | relative_url }}"
-alt="{{ page.title }}">
+src="{{ page.recipe_card | relative_url }}"
+alt="{{ page.title }} Recipe Card">
 
 {% endif %}
 
