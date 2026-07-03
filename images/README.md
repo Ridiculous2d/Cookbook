@@ -2,8 +2,8 @@
 
 This folder stores the images used throughout the cookbook.
 
-Images include:
-
+Images may include:
 - Recipe photos
-- Finished meals
-- Step-by-step photos (if needed)
+- Step-by-step photos
+- Finished dishes
+- Ingredient photos (when helpful)
