@@ -9,8 +9,6 @@ image: /images/recipes/southwest-chicken-power-bowl/hero.jpg
 
 recipe_card: /recipe-cards/meal-prep-bowls/southwest-chicken-power-bowl.pdf
 
-quick_reference: /recipe-summaries/meal-prep-bowls/southwest-chicken-power-bowl.pdf
-
 version: 1.0
 
 last_updated: 2026-07-03
