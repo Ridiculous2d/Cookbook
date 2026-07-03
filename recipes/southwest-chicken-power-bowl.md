@@ -7,7 +7,7 @@ category: Meal Prep Bowl
 
 image: /images/recipes/southwest-chicken-power-bowl/hero.jpg
 
-recipe_card: /recipe-cards/meal-prep-bowls/southwest-chicken-power-bowl.pdf
+recipe_card: /recipe-cards/southwest-chicken-power-bowl.png
 
 version: 1.0
 
