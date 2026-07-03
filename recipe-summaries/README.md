@@ -1,5 +1,4 @@
 # Recipe Summaries
-[🏠 Home](../) | [📚 Standards](../standards/) | [🍽️ Recipes](../recipes/) | [🖨️ Recipe Cards](../recipe-cards/) | [📋 Recipe Summaries](../recipe-summaries/)
 
 This folder contains one-page quick reference sheets for meal prep.
 
