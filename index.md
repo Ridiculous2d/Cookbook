@@ -2,7 +2,7 @@
 
 Welcome to my personal cookbook.
 
-This cookbook is a collection of recipes that I've tested, refined, and organized for my own cooking style.
+This cookbook is a collection of recipes that I've put together for meal planning and prepping.
 
 ---
 
