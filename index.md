@@ -2,42 +2,52 @@
 layout: default
 title: Home
 ---
-# Amy's Cookbook
 
-Welcome to my personal cookbook.
+<section class="hero">
+  <h1>Amy's Cookbook</h1>
+  <p class="tagline">Tested Recipes • Meal Prep • Entertaining</p>
+  <p class="intro">
+    This cookbook is a collection of recipes that I've put together for meal planning and prepping.
+  </p>
+</section>
 
-This cookbook is a collection of recipes that I've put together for meal planning and prepping.
+<section>
+  <h2>Browse the Cookbook</h2>
 
----
+  <div class="card-grid">
+    <a class="card" href="{{ '/recipes/' | relative_url }}">
+      <h3>Recipes</h3>
+      <p>Browse the full recipe collection.</p>
+    </a>
 
-## 🍽️ Recipes
+    <a class="card" href="{{ '/standards/' | relative_url }}">
+      <h3>Standards</h3>
+      <p>View recipe and meal prep standards.</p>
+    </a>
 
-➡️ **[Browse All Recipes](recipes/)**
+    <a class="card" href="{{ '/recipe-cards/' | relative_url }}">
+      <h3>Recipe Cards</h3>
+      <p>Printable recipe cards.</p>
+    </a>
 
-### Current Recipes
+    <a class="card" href="{{ '/recipe-summaries/' | relative_url }}">
+      <h3>Recipe Summaries</h3>
+      <p>Quick-reference cooking sheets.</p>
+    </a>
+  </div>
+</section>
 
-- 🌮 Southwest Chicken Power Bowl *(Coming Soon)*
-- 🍋 Lemon Herb Chicken Power Bowl *(Coming Soon)*
+<section>
+  <h2>Recipe Categories</h2>
 
----
-
-## Future Categories
-
-- 🥣 Slow Cooker
-- 🍳 Breakfast
-- 🍲 Soups
-- 🎉 Holiday Recipes
-- 🍪 Desserts
-
----
-
-## Cookbook Standards
-
-Every recipe in this cookbook is designed to be:
-
-- High Protein
-- Freezer Friendly (when appropriate)
-- Meal Prep Friendly
-- Whole-food focused
-- Easy to follow
-- Version controlled as recipes improve over time
+  <div class="category-list">
+    <a href="{{ '/recipes/' | relative_url }}">Meal Prep Bowls</a>
+    <a href="{{ '/recipes/' | relative_url }}">Slow Cooker</a>
+    <a href="{{ '/recipes/' | relative_url }}">Sheet Pan Meals</a>
+    <a href="{{ '/recipes/' | relative_url }}">Breakfast</a>
+    <a href="{{ '/recipes/' | relative_url }}">Snacks</a>
+    <a href="{{ '/recipes/' | relative_url }}">Desserts</a>
+    <a href="{{ '/recipes/' | relative_url }}">Holiday</a>
+    <a href="{{ '/recipes/' | relative_url }}">Drinks</a>
+  </div>
+</section>
