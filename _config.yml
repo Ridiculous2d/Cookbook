@@ -1,0 +1,19 @@
+title: Amy's Cookbook
+description: A personal collection of recipes, meal prep ideas, and cooking references.
+theme: minima
+
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+
+header_pages:
+  - recipes/README.md
+  - standards/README.md
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
