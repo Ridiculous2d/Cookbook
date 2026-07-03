@@ -5,7 +5,7 @@ title: Southwest Chicken Power Bowl
 
 category: Meal Prep Bowl
 
-image: /recipe-cards/southwest-chicken-power-bowl.png
+image: /images/recipes/southwest-chicken-power-bowl/hero.jpg
 
 recipe_card: /recipe-cards/southwest-chicken-power-bowl.png
 
