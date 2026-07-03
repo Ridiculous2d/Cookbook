@@ -40,27 +40,11 @@ Smoky • Savory • Slightly Spicy • Fresh
 | | |
 |---|---|
 | Servings | 3 |
-| Hands-on Time | 60 min |
-| Total Time | 2 hr 0 min |
-| Meal Day Time | 5 min |
+| Hands-on Time | 60–75 minutes |
+| Total Time | ~2 hours |
+| Meal Day Time | 5 minutes |
 | Freezer Friendly | Yes |
-
----
-
-# Prep Order
-
-- Gather ingredients.
-- Preheat oven to 425°F.
-- Start brown rice.
-- Season chicken.
-- Bake chicken.
-- Slice vegetables.
-- Start quinoa.
-- Roast vegetables.
-- Shred cheddar.
-- Drain and rinse beans.
-- Allow cooked ingredients to cool.
-- Assemble freezer bags.
+| Refrigerator Friendly | Cheese & Dressing |
 
 ---
 
@@ -68,7 +52,7 @@ Smoky • Savory • Slightly Spicy • Fresh
 
 ## Protein
 
-- 1 lb boneless skinless chicken breast
+- 1 lb boneless, skinless chicken breast
 
 ## Grain Blend
 
@@ -77,17 +61,17 @@ Smoky • Savory • Slightly Spicy • Fresh
 
 ## Beans
 
-- 1 cup black beans, drained and rinsed
+- 1 cup canned black beans, drained and rinsed
 
 ## Vegetables
 
-- 1 bell pepper
-- ½ large onion
+- 1 bell pepper, diced
+- ½ large onion, diced
 - 1 cup frozen corn
 
 ## Fresh Toppings
 
-- 3 oz freshly shredded sharp cheddar
+- 3 oz freshly shredded sharp cheddar cheese
 - Salsa verde or cilantro-lime dressing
 
 ## Chicken Seasoning
@@ -108,33 +92,61 @@ Smoky • Savory • Slightly Spicy • Fresh
 
 ---
 
+# Prep Order
+
+- Gather ingredients.
+- Preheat oven to **425°F**.
+- Start brown rice.
+- Season chicken.
+- Bake chicken.
+- Slice vegetables.
+- Start quinoa.
+- Roast vegetables.
+- Shred cheddar.
+- Drain and rinse beans.
+- Allow cooked ingredients to cool.
+- Assemble freezer bags.
+
+---
+
 # Sunday Meal Prep
 
-1. Preheat oven to **425°F**.
-2. Cook brown rice according to package directions.
-3. Toss diced peppers and onions with olive oil spray, salt and pepper.
-4. Roast vegetables for **20–25 minutes**, stirring halfway.
-5. Mix chicken with olive oil and seasonings.
-6. Bake chicken for **20–25 minutes** or until it reaches **165°F**.
-7. Cook quinoa according to package directions.
-8. Drain and rinse black beans.
-9. Shred cheddar from a block.
-10. Cool all cooked ingredients for 20–30 minutes before packaging.
+1. Gather all ingredients and equipment.
+
+2. Preheat oven to **425°F**.
+
+3. Start the brown rice according to package directions.
+
+4. Pat the chicken dry. Toss with olive oil, chili powder, cumin, smoked paprika, garlic powder, salt, and pepper until evenly coated.
+
+5. Place the chicken on one half of a sheet pan and bake for **20–25 minutes**, or until the internal temperature reaches **165°F**.
+
+6. While the chicken is baking, dice the bell pepper and onion.
+
+7. Once the rice is cooking, start the quinoa according to the package directions.
+
+8. Toss the peppers and onions with olive oil spray, salt, and pepper. Spread them on the other half of the sheet pan (or a second sheet pan if needed). Roast for **20–25 minutes**, stirring halfway through.
+
+9. Shred **3 oz** of cheddar cheese from a block. Portion **1 oz** into a small refrigerated container for each serving (or one container holding all 3 oz).
+
+10. Drain and rinse the black beans.
+
+11. Allow the chicken, rice, quinoa, and vegetables to cool for about **20–30 minutes** before packaging.
 
 ---
 
 # Assemble Freezer Bags
 
-Each freezer bag contains:
+Place the following into **one** freezer bag:
 
-- ½ cup cooked brown rice
-- ¼ cup cooked quinoa
-- ⅓ cup cooked chicken
+- ⅓ of the cooked chicken
+- ⅓ of the cooked brown rice
+- ⅓ of the cooked quinoa
 - ⅓ cup black beans
-- ⅓ cup corn
 - ⅓ cup roasted peppers & onions
+- ⅓ cup corn
 
-Repeat for all 3 servings.
+Repeat for all **3** servings.
 
 ---
 
@@ -142,46 +154,46 @@ Repeat for all 3 servings.
 
 Keep refrigerated:
 
-- Freshly shredded cheddar
+- 3 oz shredded cheddar cheese
 - Salsa verde or cilantro-lime dressing
 
 ---
 
 # Meal Day
 
-### Night Before
+### The Night Before
 
-Move one freezer bag to refrigerator.
+Move one freezer bag from the freezer to the refrigerator.
 
-### Heating
+### Heat
 
-Microwave 2–3 minutes until hot.
+Microwave for **2–3 minutes**, stirring halfway through, until heated through.
 
-### Add Fresh Toppings
+### Finish
 
 Top with:
 
-- 1 oz shredded cheddar
+- 1 oz freshly shredded cheddar cheese
 - Salsa verde or cilantro-lime dressing
 
 ---
 
 # Storage
 
-Refrigerator
+### Refrigerator
 
 - Cheese: 5–7 days
-- Dressing: per bottle
+- Dressing: Follow bottle recommendations
 
-Freezer
+### Freezer
 
-- Bowls: up to 3 months
+- Meal prep bags: Up to 3 months
 
 ---
 
 # Estimated Nutrition
 
-Approximately per serving
+Approximate per serving:
 
 - Calories: ~500
 - Protein: ~38 g
@@ -195,4 +207,4 @@ Approximately per serving
 
 ## Version 1.0
 
-- Initial recipe.
+- Initial recipe created.
