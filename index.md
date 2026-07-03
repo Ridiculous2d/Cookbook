@@ -1,3 +1,7 @@
+---
+layout: default
+title: Home
+---
 # Amy's Cookbook
 
 [🏠 Home](./) | [📚 Standards](standards/) | [🍽️ Recipes](recipes/) | [🖨️ Recipe Cards](recipe-cards/) | [📋 Recipe Summaries](recipe-summaries/)
