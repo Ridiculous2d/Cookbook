@@ -7,8 +7,7 @@ Each recipe includes:
 - Prep order
 - Equipment
 - Ingredients
-- Meal Prep Detailed instructions
-- Meal Day Deatiled instructions
+- Detailed instructions
 - Storage information
 - Nutrition
 - Recipe history
